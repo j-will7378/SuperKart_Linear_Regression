@@ -35,5 +35,28 @@ Store_Establishment_Year - the year in which the store was established
 
 ### All but one of the continuous variables are normally distributed. The product allocated area is right skewed. This could be due to the fact that some large products require a larger display area.
 
+## Inspect the categorical variables
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/359c3860-e369-4f4b-8ead-0a23397f8aeb)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/80d34677-ef09-40af-b896-0974f740898a)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/8932e244-52e8-429e-829b-36d0c1074e03)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/d196a34d-62df-40cd-a604-4adfa51f024f)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/4cddb374-711e-4180-82f4-e3c52257ded3)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/5d299d0e-f3a8-46f6-8dfb-2105b4104394)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/4aef1dcc-bb34-4075-a10b-8c921934027b)
+
+- ### Low-sugar products are the most popular. This makes sense because later you will see that fruits and vegetables are what people buy most.
+- ### Fruits and vegetables, snack foods, frozen foods, dairy, and household goods are the top 5 products.
+- ### Store_Id - unique identifier of each store Store_Establishment_Year - the year in which the store was established. OUT004 should be the stores established in 2009. More stores were established this year. You clearly see this in the year-established graph.
+- ### Medium-sized stores have the most stores.
+- ### Tier 2 has the most stores.
+- ### Supermarket type 2 has the most stores.
+- ### Supermarket type 2 and OUT004 are probably the same. This would indicate that supermarket type 2 was established in 2009. The store type and the year established have a 1:1 mapping.
 
 
