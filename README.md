@@ -23,6 +23,9 @@ Store_Establishment_Year - the year in which the store was established
 
 ## Inspect the distribution of the continuous variables
 
+![carbon (17)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/110d830b-a0c6-4260-9ea0-0c09665c027b)
+
+
 ![carbon (16)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/bbd11c75-c4dd-4fb3-8a52-5500d9caa6a5)
 
 ![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/5be0bf1d-20af-41fc-b0a7-0ef791ac16f1)
