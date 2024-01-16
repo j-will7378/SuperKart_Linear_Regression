@@ -23,8 +23,6 @@ Store_Establishment_Year - the year in which the store was established
 
 ## Inspect the distribution of the continuous variables
 
-![carbon (17)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/110d830b-a0c6-4260-9ea0-0c09665c027b)
-
 
 ![carbon (16)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/bbd11c75-c4dd-4fb3-8a52-5500d9caa6a5)
 
@@ -39,6 +37,9 @@ Store_Establishment_Year - the year in which the store was established
 ### All but one of the continuous variables are normally distributed. The product allocated area is right skewed. This could be due to the fact that some large products require a larger display area.
 
 ## Inspect the categorical variables
+
+![carbon (17)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/f288a18d-7d61-420e-a038-c32ea3feb4a5)
+
 
 ![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/359c3860-e369-4f4b-8ead-0a23397f8aeb)
 
