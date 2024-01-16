@@ -55,12 +55,56 @@ Store_Establishment_Year - the year in which the store was established
 
 ![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/4aef1dcc-bb34-4075-a10b-8c921934027b)
 
-- ### Low-sugar products are the most popular. This makes sense because later you will see that fruits and vegetables are what people buy most.
+- ### Low-sugar products are the most popular. This makes sense because later, you will see that fruits and vegetables are what people buy most.
 - ### Fruits and vegetables, snack foods, frozen foods, dairy, and household goods are the top 5 products.
-- ### Store_Id - unique identifier of each store Store_Establishment_Year - the year in which the store was established. OUT004 should be the stores established in 2009. More stores were established this year. You clearly see this in the year-established graph.
+- ### Store_Id - unique identifier of each store Store_Establishment_Year - the year in which the store was established. OUT004 should be the stores established in 2009. More stores were established this year. You see this in the year-established graph.
 - ### Medium-sized stores have the most stores.
 - ### Tier 2 has the most stores.
 - ### Supermarket type 2 has the most stores.
 - ### Supermarket type 2 and OUT004 are probably the same. This would indicate that supermarket type 2 was established in 2009. The store type and the year established have a 1:1 mapping.
+
+  ## Inspect the correlation of the continuous variables
+
+  ![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/1f96a61e-2977-4691-afeb-4533712209d6)
+
+- Product weight and Product MRP are highly correlated with product store sales totals, which is the target variable.
+- Product weight and product MRP have a strong correlation as well.
+- Everything else does not correlate.
+
+
+## Bivariate analysis. Inspect categorical variables vs. target variable product store sales totals.
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/e2bda93b-88a4-4e62-8dfb-0bf328e332ad)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/416cdef5-f2f7-4f6f-8e39-5decd1e922ed)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/63bea240-6672-406d-9aa6-de6ed6cd5dec)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/686db28e-5818-404f-9c87-0f5653d930bf)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/8e0ab937-6592-4eda-a5ff-d98fc13dac50)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/0e0ff374-9763-409d-8e3d-8c43b77674c9)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/9a2f6183-8a5b-4e02-993c-d10db27f790c)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/b48f9c49-5b5c-43de-947e-949073383344)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/81a236d4-7890-4f31-aa35-57ccd6e56ff8)
+
+### Here are the things that generate the most revenue:
+- ### Food items
+- ### Low-sugar items
+- ### Fruits and Vegetables and Snack foods
+- ### Store id OUT004
+- ### The year 2009 (This is the year they had the most expansion)
+- ### Medium sized stores
+- ### Tier 2 stores
+- ### Supermarket type 2
+
+
+  
+
+
 
 
