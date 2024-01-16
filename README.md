@@ -33,7 +33,7 @@ Store_Establishment_Year - the year in which the store was established
 
 ![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/7c33ceab-bdc0-4634-9be7-83466356379e)
 
-All but one of the continuous variables are normally distributed. The product allocated area is right skewed. This could be due to the fact that some large products require a larger display area.
+### All but one of the continuous variables are normally distributed. The product allocated area is right skewed. This could be due to the fact that some large products require a larger display area.
 
 
 
