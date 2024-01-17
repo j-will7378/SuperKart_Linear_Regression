@@ -155,16 +155,123 @@ Department stores may have higher ticket items
 ## Check Model Performance
 
 
-![carbon (20)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/cee9d00d-3a35-43af-bb5d-3825acfaba4f)
+![carbon (22)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/763da344-7c77-450f-a99d-460fa50d05b9)
+
+- ### The Train and the Test scores are very close to each other so we can say the model is not overfitting.
+- ### However, the Test score is slightly better than the Train score. So, we might be able to get better performance if we increase the complexity of the model.
 
 
-## Check Homoscedasity
+  ![carbon (23)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/dadf9260-4e38-4be0-973f-6d386261f3c3)
+
+- ### The train and the test scores are very close to each other. So, we can say the model is not overfitting.
+- ### However, the test score is slightly better than the training score. So, we might be able to get better performance if we increase the complexity of the model.
+- ### So, model2 is performing the best when compared with model1 because in model2 we are dropping insignificant variables.
 
 
-![carbon (21)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/342dadc1-7427-45e2-a5a4-e2ae74aac205)
+## Checking the below linear regression assumptions
+1. Mean of residuals should be 0
+2. No Heteroscedasticity
+3. Linearity of variables
+4. Normality of error terms
 
 
-![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/8eace1c8-f38a-404c-ab3f-dc4ee1060d9d)
+## Mean Residual
+
+
+![carbon (24)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/751bffd5-6878-4af7-8084-ec634b090eb6)
+
+- ### The mean of residuals is very close to 0. Hence, the corresponding assumption is satisfied.
+
+
+
+## Check for homoscedasticity
+- Homoscedasticity - If the residuals are symmetrically distributed across the regression line, then the data is said to be homoscedastic.
+
+- Heteroscedasticity- - If the residuals are not symmetrically distributed across the regression line, then the data is said to be heteroscedastic. In this case, the residuals can form a funnel shape or any other non-symmetrical shape.
+
+- We'll use Goldfeldquandt Test to test the following hypothesis with alpha = 0.05:
+
+    - Null hypothesis: Residuals are homoscedastic
+    - Alternate hypothesis: Residuals have heteroscedastic
+
+
+![carbon (25)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/7ade0c82-7d61-4ea3-985b-24bfc06987d7)
+
+- ## Since p-value > 0.05, we cannot reject the Null Hypothesis that the residuals are homoscedastic and the corresponding assumption is satisfied.
+
+
+## Check linearity of Variables
+
+
+![carbon (26)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/421b458a-874a-49ff-927a-db2ea38b466f)
+
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/853da722-e6ca-4e8f-a6b4-be98553197dc)
+
+- ### There is no pattern in the residual vs fitted values plot. Hence, the corresponding assumption is satisfied.
+
+
+## Normality of error terms
+
+### The residuals should be normally distributed.
+
+
+![carbon (27)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/e4b80e3c-7d52-425f-bef6-daa91210a497)
+
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/d2dcfed4-ccb0-436a-9274-65f4b5c5bed0)
+
+
+![carbon (28)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/5b6ac19d-16b8-440d-a61e-2db0fac2f9e7)
+
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/edc1492e-1814-4ed7-8db6-33b6756a10df)
+
+- ### From the above plots, the residuals seem to follow a normal distribution. Hence, the corresponding assumption is satisfied. Now, we will check the model performance on the train and test datasets.
+
+
+## Apply cross-validation to improve the model and evaluate it using different evaluation metrics
+
+### Let's check the performance of the model using the cross-validation technique from the scikit-learn library and see if the performance on the train and the test data is comparable to what we are getting after cross-validating the data.
+
+
+![carbon (29)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/91aae60b-6933-4979-84ca-5d65f8aeb2a6)
+
+- ### After applying cross-validation the model score has improved. We can compare it by the evaluation metric scores.
+
+
+## Actionable Insights and Business Recommendations
+- ### We can use this prediction model to predict the total sales that will be done by SuperKart in the next quarter.
+
+T- ### he model explains around 79% of the variation in the data.
+
+- ### OUT004 - OUT004, which is of Supermarket Type2, located in a Tier 2 city and having store size as medium, is performing well. They can also look to set up stores in this type of city having comparable socio-economic conditions in order to expand their business and reach.
+
+- ### OUT002 - OUT002, being a food mart in a Tier 3 city and having small store size, is also performing well. Target similar cities for business expansion.
+
+- ### OUT001 - OUT001 which is a store of Supermarket Type 1, located in a Tier 2 city and having store size as high is not performing upto the mark. SuperKart can look to look build new marketing strategies (maybe give attractive discounts and offers) in this store in order to attract more customers.
+
+- ### OUT003 - Similar approach can be taken to increase the business of OUT003 which is a Departmental store in a Tier 1 city and having store size as medium. It is the premium store of the company where most of the costly goods are sold, so the correct set of audience should be targetted.
+
+- ### Daily needs like fruits and vegetables and snack foods are the biggest contributors to the revenue across all the stores. So SuperKart should look to maintain the inventory of these products properly and ensure that these products never face a shortage.
+
+## Additional information that can be collected to gain better insights -
+
+- ### Customers' details like age and gender can be incorporated in this model so that the company gets to know their target audience well and can build their sales strategies according to that.
+
+- ### The company should also keep a watch for the number of festive occasions present in a quarter so that they can strategize their inventory accordingly.
+
+## Continued Research Recommendations and Considerations
+
+- ### What are OUT004 and OUT002 doing to drive revenue?
+- ### Who are their customers and what are thier behaviors?
+- ### What aren't the pther two perfoming as well?
+- ### Who are their customers and what are thier behaviors?
+- ### How large does socio economics play into the role of how these stores perform?
+- ### Do these stores carry different brands of products and does that play a part into revenue generation?
+
+
+
 
 
 
