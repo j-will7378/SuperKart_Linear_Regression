@@ -119,6 +119,56 @@ Supermarket type 2 generates the most revenue.
 Department stores may have higher ticket items
 - ### Median prices look the same for all product types, which is interesting.
 
+## Inspect product types with respect to store size and tier vs. sales totals
+
+### Small Store
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/434f35de-68e9-4fd9-b7d3-c7e484fe4386)
+
+### Tier 1
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/6c95ab91-3348-4410-ab28-b1d64065e35c)
+
+### Heat Map view of store size
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/acaddac2-ad4a-43b8-accb-f1861b76f130)
+
+
+- ### Regardless of the store size, tier, or type, fruits and vegetables, and snack foods are the top 2.
+
+## Split the data into train and test data
+
+
+![carbon (18)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/e8206996-b1ad-4958-8e6d-e7b6be2c9092)
+
+
+## Test for Multicollinearity
+
+
+![carbon (19)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/07132d0c-1f59-440d-8a95-c4d0a9b7997c)
+
+
+## Check Model Performance
+
+
+![carbon (20)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/cee9d00d-3a35-43af-bb5d-3825acfaba4f)
+
+
+## Check Homoscedasity
+
+
+![carbon (21)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/342dadc1-7427-45e2-a5a4-e2ae74aac205)
+
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/8eace1c8-f38a-404c-ab3f-dc4ee1060d9d)
+
+
+
+
+
+
+
+
 
 
 
