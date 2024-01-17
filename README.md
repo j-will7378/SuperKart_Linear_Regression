@@ -147,6 +147,10 @@ Department stores may have higher ticket items
 
 ![carbon (19)](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/07132d0c-1f59-440d-8a95-c4d0a9b7997c)
 
+- ### The VIF of Product_Weight, Product_Allocation_Area, Product_MRP, Product_Id_char_FD are less.
+- ### The VIF for dummy variables can be ignored, which is expected that they would have a high VIF.
+- ### But the continuous variables should not have high VIF.
+
 
 ## Check Model Performance
 
