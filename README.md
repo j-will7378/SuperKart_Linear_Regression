@@ -74,8 +74,6 @@ Store_Establishment_Year - the year in which the store was established
 
 ## Bivariate analysis. Inspect categorical variables vs. target variable product store sales totals.
 
-![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/e2bda93b-88a4-4e62-8dfb-0bf328e332ad)
-
 ![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/416cdef5-f2f7-4f6f-8e39-5decd1e922ed)
 
 ![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/63bea240-6672-406d-9aa6-de6ed6cd5dec)
