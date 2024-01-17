@@ -105,8 +105,6 @@ Store_Establishment_Year - the year in which the store was established
 
 ## Inspect the distribution of the continuous variables vs. sales totals
 
-![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/f5f6d66a-b71b-4928-ba59-04120f52c7f4)
-
 ![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/1282dfc8-8be4-4b1a-bdfa-237d5b549712)
 
 ![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/10550b2a-8db7-444b-8210-37e5e20b3968)
