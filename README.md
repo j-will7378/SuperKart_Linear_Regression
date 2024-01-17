@@ -67,9 +67,9 @@ Store_Establishment_Year - the year in which the store was established
 
   ![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/1f96a61e-2977-4691-afeb-4533712209d6)
 
-- Product weight and Product MRP are highly correlated with product store sales totals, which is the target variable.
-- Product weight and product MRP have a strong correlation as well.
-- Everything else does not correlate.
+- ### Product weight and Product MRP are highly correlated with product store sales totals, which is the target variable.
+- ### Product weight and product MRP have a strong correlation as well.
+- ### Everything else does not correlate.
 
 
 ## Bivariate analysis. Inspect categorical variables vs. target variable product store sales totals.
@@ -103,7 +103,27 @@ Store_Establishment_Year - the year in which the store was established
 - ### Supermarket type 2
 
 
-  
+## Inspect the distribution of the continuous variables vs. sales totals
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/f5f6d66a-b71b-4928-ba59-04120f52c7f4)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/1282dfc8-8be4-4b1a-bdfa-237d5b549712)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/10550b2a-8db7-444b-8210-37e5e20b3968)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/243a3141-2846-4a66-964f-184b1179d377)
+
+![image](https://github.com/j-will7378/SuperKart_Linear_Regression/assets/133849655/6a5b881b-793b-4a88-882b-ab17bc3f30bf)
+
+- ### Prices from sugar content are roughly the same.
+- ### High-size store prices look to be higher. Although medium size generated more revenue.
+- ### OUT003 prices are higher. OUT004 generates more revenue.
+- ### Looks like department stores have higher median prices
+Supermarket type 2 generates the most revenue.
+Department stores may have higher ticket items
+- ### Median prices look the same for all product types, which is interesting.
+
+
 
 
 
